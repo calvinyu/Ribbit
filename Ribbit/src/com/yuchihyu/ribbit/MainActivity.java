@@ -27,7 +27,6 @@ import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
-import com.yuchihyu.ribbit.R;
 
 public class MainActivity extends FragmentActivity implements
 		ActionBar.TabListener {
@@ -218,6 +217,8 @@ public class MainActivity extends FragmentActivity implements
 					.setTabListener(this));
 		}
 	}
+	
+
 	
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
