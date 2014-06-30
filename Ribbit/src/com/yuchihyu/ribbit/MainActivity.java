@@ -124,7 +124,7 @@ public class MainActivity extends FragmentActivity implements
 					mediaFile = new File(path + "IMG_" + timestamp + ".jpg");
 				}
 				else if (mediaType == MEDIA_TYPE_VIDEO) {
-					mediaFile = new File(path + "VID_" + timestamp + ".mp4");
+					mediaFile = new File(path + "VID_" + timestamp + ".3gp");
 				}
 				else {
 					return null;
